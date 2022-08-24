@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev app.ts",
-    "build": "tsc --build",
-    "lint": "eslint app.ts src --ext .ts",
+    "build": "echo 'Running a build'",
+    "lint": "echo 'Linting!'",
+    "test": "echo 'Running tests'",
     "fix": "eslint app.ts src --ext .ts --fix"
   },
   "keywords": [
